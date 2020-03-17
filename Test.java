@@ -15,9 +15,9 @@ public class Test {
 	Transaction tx=null;
 		try {
 		tx=ses.beginTransaction();
-		Course c1=new Course(131,"HIB",200.0);
-		Course c2=new Course(132,"SPR",300.0);
-		Course c3=new Course(133,"BOOT",400.0);
+		Course c1=new Course(131,"siva",200.0);
+		Course c2=new Course(132,"naga",300.0);
+		Course c3=new Course(133,"raju",400.0);
 		
 		Student s1=new Student();
 		s1.setStdId(10);
