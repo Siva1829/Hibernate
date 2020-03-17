@@ -15,7 +15,7 @@ public class Test {
 	Transaction tx=null;
 		try {
 		tx=ses.beginTransaction();
-		Course c1=new Course(131,"HIB",200.0);
+		Course c1=new Course(131,"HIB2222",200.0);
 		Course c2=new Course(132,"SPR",300.0);
 		Course c3=new Course(133,"BOOT",400.0);
 		
